@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// 终端检测  根据终端打开指定页面
+        var isMobile = navigator.userAgent.match(/android|iphone|ipod|ipad/i);
+        if (isMobile) {
+            location.href = './MobilePage.html';
+        } else {
+            location.href = './PCPage.html';
+        }
+	</script>
+</body>
+</html>

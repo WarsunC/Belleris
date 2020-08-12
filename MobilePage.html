@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>MobliePage</title>
+    <script src="./js/adapt.js"></script>
+    <script src="./iconfont/iconfont.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/MobileStyle.css" />
+</head>
+<body>
+	<div class="header">
+		<span class="header_title">BELLERIS</span>
+		<div class="header_more"><div></div><div></div><div></div></div>
+		<div class="header_search"></div>
+		<div class="header_person"></div>
+		<div class="header_group"><span>2</span></div>
+	</div>
+
+	<div class="content">
+		<div class="content_title">Men's Running Shoes</div>
+		<div class="content_choose1">
+			<span class="content_choose1-button-active">SCENES</span>
+			<span>PRODUCT</span>
+			<div class="content_choose-line-show-two"><div class="content_choose-line-show-active"></div><div class="content_choose-line-show-active"></div><div class="content_choose-line-show-active"></div><div class="content_choose-line-show-active"></div></div>
+			<div class="content_choose-line-show-one"></div>
+		</div>
+		<div class="content_choose2">
+			<div class="content_match">
+				<span>Best Match</span>
+				<svg class="icon-arrow" aria-hidden="true">
+					<use xlink:href="#icon-arrow-right"></use>
+				</svg>
+			</div>
+			<div class="content_result">
+				<span>315 resylts</span>
+			</div>
+		</div>
+		<ul class="content_list">
+<!-- 			<li class="content_list-showtwo">
+				<img src="./img/skirt1.png" alt="">
+				<div class="content_list_title">Product Title</div>
+				<div class="content_list_price"><span class="content_list_price_new">$256 </span><span class="content_list_price_old">$667</span></div>
+			</li>
+			<li class="content_list-showtwo">
+				<img src="./img/skirt2.png" alt="">
+				<div class="content_list_title">Product Title</div>
+				<div class="content_list_price"><span class="content_list_price_new">$256 </span><span class="content_list_price_old">$667</span></div>
+			</li>
+			<li class="content_list-showtwo">
+				<img src="./img/skirt3.png" alt="">
+				<div class="content_list_title">Product Title</div>
+				<div class="content_list_price"><span class="content_list_price_new">$256 </span><span class="content_list_price_old">$667</span></div>
+			</li>
+			<li class="content_list-showtwo">
+				<img src="./img/skirt4.png" alt="">
+				<div class="content_list_title">Product Title</div>
+				<div class="content_list_price"><span class="content_list_price_new">$256 </span><span class="content_list_price_old">$667</span></div>
+			</li> -->
+		</ul>
+	</div>
+	<div class="shade"></div>
+	<div class="sort-window">
+		<div class="sort-window_title">Sort</div>
+		<div class="sort-window_close">
+			<svg class="icon" aria-hidden="true">
+				<use xlink:href="#icon-close"></use>
+			</svg>
+		</div>
+		<ul class="sort-window_option">
+			<li class="sort-window_option_item">Best Match</li>
+			<li class="sort-window_option_item">Newest</li>
+			<li class="sort-window_option_item">Price - Low To High</li>
+			<li class="sort-window_option_item">Price - High To Low</li>
+		</ul>
+	</div>
+	<script src="./js/MobilePage.js"></script>
+	<script src="./js/data.js"></script>
+	<script>
+		const mobilePage = new MobilePage();
+		console.log(mobilePage);
+	</script>
+</body>
+</html>
